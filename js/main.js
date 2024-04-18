@@ -1,5 +1,5 @@
 // Set the timestamp we're counting down to
-var countDownDate = 1550376000000;
+var countDownDate = 1740067200000;
 var daysElement = document.getElementById('days');
 var hoursElement = document.getElementById('hours');
 var minutesElement = document.getElementById('minutes');

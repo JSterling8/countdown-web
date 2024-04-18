@@ -18,5 +18,4 @@ setInterval(function() {
     hoursElement.innerText = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     minutesElement.innerText = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     secondsElement.innerText = Math.floor((distance % (1000 * 60)) / 1000);
-    secondsElement.innerText = now;
 }, 1000);
